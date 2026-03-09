@@ -35,20 +35,21 @@ Note: This is a demonstration project. The V1-V28 features are anonymized, so th
 
 Gemini AI Report in Action
 
-🛠️Technology                                                                                                                                                                                                  
-Backend & ML
-
-Python, Flask, Scikit-learn, Pandas, NumPy, Joblib                                                                                                   
+Technology Stack
+Backend & Machine Learning ,Python ,Flask ,Scikit-learn ,Pandas ,NumPy ,Joblib
 Frontend
-
-HTML5, Tailwind CSS, JavaScript                                                                                               
+HTML5 ,Tailwind CSS
+JavaScript
 AI Integration
-Google Gemini API                                                                                                                                                                                                     
-📈 Machine Learning Model
-The core of this project is a Logistic Regression model trained to distinguish between legitimate and fraudulent transactions.
-
-Model: Logistic Regression was chosen as a strong, interpretable baseline.
-
+Google Gemini API
+Machine Learning Model
+The core of this project is a Logistic Regression model trained to classify credit card transactions as legitimate or fraudulent.
+Logistic Regression was selected as a strong and interpretable baseline model, providing efficient performance and clear decision boundaries for fraud detection.
+Features
+Detect fraudulent credit card transactions using machine learning
+Web interface for real-time prediction
+Data visualization of transaction distribution
+Scalable ML model integration
 Dataset: The model was trained on the Kaggle Credit Card Fraud dataset, which contains 284,807 transactions, with only 492 (0.172%) being fraudulent.
 
 Challenge: The extreme class imbalance makes 'accuracy' a misleading metric. Therefore, the model's performance was evaluated using Precision, Recall, and F1-Score, which are more suitable for this type of problem.
